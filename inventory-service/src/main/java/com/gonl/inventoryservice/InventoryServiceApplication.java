@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Bean;
 public class InventoryServiceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("New ver");
 		SpringApplication.run(InventoryServiceApplication.class, args);
 	}
 

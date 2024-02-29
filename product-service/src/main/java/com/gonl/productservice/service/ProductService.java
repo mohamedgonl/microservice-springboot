@@ -1,9 +1,9 @@
 package com.gonl.productservice.service;
 
+import com.gonl.productservice.repository.ProductRepository;
 import com.gonl.productservice.dto.ProductRequest;
 import com.gonl.productservice.dto.ProductResponse;
 import com.gonl.productservice.model.Product;
-import com.gonl.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
